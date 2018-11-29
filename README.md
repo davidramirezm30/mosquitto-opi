@@ -1,4 +1,5 @@
-# mosquitto-opi <br>
+# mosquitto & mosquitto-clients <br>
+![alt text](https://www.lolgast.nl/wp-content/uploads/2018/06/mosquitto-colour-deselected.png)
 Porting official Eclipse mosquitto package to Docker image running on Orange Pi (ARMv7 32-bit or arm32v7) platform.
 
 ## Directories <br>
