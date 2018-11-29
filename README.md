@@ -4,7 +4,7 @@ Porting official Eclipse mosquitto package to Docker image running on Orange Pi 
 
 ## Directories <br>
 Create three directories for configuration, data and log.<br>
-For doing so, copy and paste. <br><br>
+To do so, copy and paste. <br><br>
 ```
 sudo mkdir -p /docker/mosquitto/config
 sudo mkdir -p /docker/mosquitto/log
@@ -13,7 +13,7 @@ sudo mkdir -p /docker/mosquitto/data
 <br>
 
 ## Usage <br>
-Copy and paste in the console of your Orange Pi or arm 32 bits device.<br><br>
+Copy and paste to the console of your Orange Pi or arm 32 bits device.<br><br>
 ```
 sudo docker run -itd \
 --name="mosquitto" \
@@ -25,7 +25,7 @@ sudo docker run -itd \
 davidramirezm30/mosquitto-opi
 ```
 <br><br>
-If you want to configure the user and the password change "USERNAME" for you own username.<br><br>
+If you want to configure the user and the password change "USERNAME" to one of your own.<br><br>
 ```sudo mosquitto_passwd -c /etc/mosquitto/pwfile USERNAME```<br><br>
 i.e. If the `USERNAME` is orangepi, type `sudo mosquitto_passwd -c /etc/mosquitto/pwfile orangepi`
 
